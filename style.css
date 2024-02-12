@@ -1,0 +1,62 @@
+body{
+    background: linear-gradient(45deg,#0a0a0a,#3a4452);
+}
+.container{   
+   border-radius: 16px;
+}
+.calci{
+    border: 1px solid black;
+   text-align: center;
+       
+    padding: 20px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgba(113, 115,119, 0.5);
+    font-size: 10px
+}
+input{
+    width: 320px;
+    border: none;
+    padding: 24px;
+    margin:10px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgba(84, 84,84, 0.1);
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+    color:white;
+    
+}
+input ::placeholder
+{
+    color: #fff;
+}
+button{
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 50%;
+    background: transparent;
+    color: #fff;
+    font-size: 20px;
+    box-shadow: -8px -8px 14px rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+}
+.text{
+    text-align: center;
+    padding: 5px;
+    word-spacing: 5px;  
+}
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.btn
+{
+    background-color: rgb(247, 164, 12);
+}
+.operator{
+    font-size: 25px;
+    color: greenyellow;
+}
